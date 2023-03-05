@@ -1,0 +1,62 @@
+{
+    "layers": 6,
+    "in_channels": 1,
+    "channels": [
+        64,
+        64,
+        128,
+        128,
+        256,
+        256
+    ],
+    "linear_size": 256,
+    "kernel_size": [
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "strides": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "padding": 1,
+    "activation": "relu",
+    "pool_size": [
+        1,
+        2
+    ],
+    "pooling": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+    ],
+    "drop_prob": 0.25
+}

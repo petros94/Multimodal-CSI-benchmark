@@ -1,0 +1,21 @@
+{
+  "test_datasets_audio": [
+    {
+      "type": "coversshs",
+      "path": [
+        "/Users/petrosmitseas/Documents/MscAI_text/data/covers80_audio_features/"
+      ]
+    }
+  ],
+  "test_datasets_lyrics": [
+    {
+      "path": "/Users/petrosmitseas/Documents/MscAI_text/data/covers80_text_features/"
+    }
+  ],
+  "w_audio": 0.5,
+  "model": {
+      "type": "cnn",
+      "config_path": "/Users/petrosmitseas/Documents/MscAI_text/checkpoints/2023-02-18 22:09:05.398441_cnn_hpcp_angular/config.json",
+      "checkpoint_path": "/Users/petrosmitseas/Documents/MscAI_text/checkpoints/2023-02-18 22:09:05.398441_cnn_hpcp_angular/checkpoint.tar"
+  }
+}
